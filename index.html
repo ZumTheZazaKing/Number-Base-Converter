@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Number Base Converter</h2>
+
+        <select name="inputType" class="inputType">
+            <option value="2">2 (Binary)</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8 (Octal)</option>
+            <option value="9">9</option>
+            <option value="10" selected>10 (Decimal)</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16 (Hex)</option>
+        </select>
+
+        <span>to</span>
+
+        <select class="outputType">
+            <option value="2" selected>2 (Binary)</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8 (Octal)</option>
+            <option value="9">9</option>
+            <option value="10">10 (Decimal)</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16 (Hex)</option>
+        </select>
+
+        <br><br>
+
+        <input type="text" class="userInput" placeholder="Input">
+
+        <br><span>=</span><br>
+
+        <input type="text" class="showOutput" placeholder="Output" disabled>
+
+        <br><br>
+
+        <button>Convert!</button>
+
+    </div>
+
+    <p class="footer">ZUMTHEZAZAKING &copy;2021</p>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
